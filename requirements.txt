@@ -7,6 +7,7 @@ anyio==3.7.1
 asttokens==2.4.1
 attrs==24.2.0
 blinker==1.8.2
+protobuf<5, >=3.20.2
 cachetools==5.5.0
 certifi==2024.8.30
 cffi==1.17.1
@@ -26,15 +27,10 @@ Flask==3.0.3
 flatbuffers==24.3.25
 fonttools==4.54.1
 frozenlist==1.4.1
-google-ai-generativelanguage==0.6.10
-google-api-core==2.20.0
+google-api-core>=2.20.0
 google-api-python-client==2.147.0
 google-auth==2.35.0
 google-auth-httplib2==0.2.0
-google-generativeai==0.8.2
-googleapis-common-protos==1.65.0
-grpcio==1.66.2
-grpcio-status==1.66.2
 gunicorn==23.0.0
 h11==0.14.0
 httpcore==1.0.5
