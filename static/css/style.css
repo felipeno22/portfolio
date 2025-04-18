@@ -1,4 +1,9 @@
 /* Estilos básicos */
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
     background: linear-gradient(to right, #e0eafc, #cfdef3);
     font-family: 'Poppins', sans-serif;
